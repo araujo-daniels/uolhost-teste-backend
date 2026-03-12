@@ -8,7 +8,7 @@ import net.danielaraujo.jogadores.model.Jogador;
 
 @Getter
 @Setter
-public class JogadorRequest {
+public class JogadorCreateRequest {
     @NotBlank(message = "O campo nome é de preenchimento obrigatório")
     private String nome;
 
